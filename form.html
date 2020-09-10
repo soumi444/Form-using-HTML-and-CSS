@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The starbuzz Bean Machine</title>
+    <link rel="stylesheet" type="text/css" href="practice.css"/>
+</head>
+<body>
+<h1>The Starbuzz Bean Machine</h1>
+<p>Fill out the form below and click submit:</p>
+<form action="form.html">
+    <table>
+        <tr>
+            <th>Choose your beans:</th>
+            <td>
+                <select name="beans">
+                <option value=""House Blend">House Blend</option>
+                <option value="Bolivia">Shade Grown Bolivia Supremo</option>
+                <option value="Guatemala">Organic Guatemala</option>
+                <option value="Kenya">Kenya</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Type:</th>
+                <td>
+                    <input type="radio" name="beantype" value="whole"/>Whole Bean<br>
+                    <input type="radio" name="beantype" value="ground" checked="checked"/>Ground Bean
+                </td>
+        </tr>
+
+        <tr>
+            <th>Extra:</th>
+                <td>
+                    <input type="checkbox" name="extras[]" value="giftwrap"> Gift Wrap<br>
+                    <input type="checkbox" name="extras[]" value="catalog" checked="checked"> Include catalog with order
+                </td>
+        </tr>
+
+        <tr>
+            <th>Ship To:</th>
+                <td>
+                    <table>
+                        <tr>
+                            <td>Name:<input type="text" name="name"/></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Address:<input type="text" name="address"/>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>City:<input type="text" name="city"/></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                State:<input type="text" name="state"/>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                State:<input type="text" name="state"/>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Zip: <input type="text" name="zip"/>
+                            </td>
+                        </tr>
+                    </table>
+                        <tr>
+                            <th>Customer Comments:</th>
+                                <td>
+                                    <textarea name="comments" rows="10" cols="48"></textarea>
+                                </td>
+                        </tr>
+
+                </td>
+        </tr>
+
+                        <tr>
+                            <th></th>
+                            <td><input type="submit" value="Order Now"</td>
+                        </tr>
+                    </table>
+    </table>
+
+
+
+</form>
+</body>
+</html>
